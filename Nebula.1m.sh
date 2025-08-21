@@ -28,6 +28,10 @@ echo "Nebula Network:"
 echo "Edit config… | bash=/usr/bin/sudo param1=/etc/nebula/config-nebula.sh terminal=true"
 echo "Restart Nebula | bash=/usr/bin/sudo param1=/etc/nebula/restart-nebula.sh terminal=true refresh=true"
 
+# Nebula version
+NEBULA_VERSION=$(/opt/homebrew/bin/nebula -version 2>/dev/null)
+[[ -n "$NEBULA_VERSION" ]] && echo "$NEBULA_VERSION"
+
 # Nebula utunX
 show_ips "utun" ""
 
