@@ -28,12 +28,12 @@ A collection of SwiftBar plugins for macOS, designed to add useful system and ne
 
 📦 Installation
 	1.	Clone this repository:
- ```
+```
 git clone https://github.com/zilvernet/swiftbar-scripts.git
 ```
 
 	2.	Copy the scripts into your SwiftBar plugins folder:
- ```
+```
 cd swiftbar-scripts
 ./install.sh
 ```
