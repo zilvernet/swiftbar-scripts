@@ -27,20 +27,18 @@ A collection of SwiftBar plugins for macOS, designed to add useful system and ne
 	•	Ensures proper permissions.
 
 📦 Installation
-	1.	Clone this repository:
+  1. Clone this repository:
 ```
-git clone https://github.com/zilvernet/swiftbar-scripts.git
+     git clone https://github.com/zilvernet/swiftbar-scripts.git
+```        
+  2. Copy the scripts into your SwiftBar plugin folder:
 ```
+	cd swiftbar-scripts
+	./install.sh
+```
+  > By default, install.sh uses ~/Documents/SwiftBar.
 
-	2.	Copy the scripts into your SwiftBar plugins folder:
-```
-cd swiftbar-scripts
-./install.sh
-```
-
-> By default, install.sh uses ~/Documents/SwiftBar.
-
-	3.	Launch SwiftBar and point it to the plugins folder if you haven’t already.
+  3.	Launch SwiftBar and point it to the plugins folder if you haven’t already.
  
 🚀 Usage
 	•	Homebrew Updates: Click the 🍺 icon in your menu bar to see and manage package updates.
